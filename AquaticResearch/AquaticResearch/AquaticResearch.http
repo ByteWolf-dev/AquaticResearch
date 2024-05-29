@@ -1,0 +1,6 @@
+@AquaticResearch_HostAddress = http://localhost:5276
+
+GET {{AquaticResearch_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
