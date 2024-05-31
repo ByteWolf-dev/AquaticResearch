@@ -13,110 +13,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24a14802-0be6-46e1-b70b-1de064f91477" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/AquaticResearchWebAPI.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/Controllers/ResearchProjectController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/Controllers/SpeciesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base.Web/Base.Web.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base.Web/Controller/ControllerExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base.Web/HttpRequestExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base.Web/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Base.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Core/AppService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Core/Contracts/UnitOfWork/IBaseUnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Core/Contracts/UnitOfWork/ITransaction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Core/Contracts/UnitOfWork/Repositories/IGenericRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Core/Entities/EntityObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Core/ServiceCollectionExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Persistence/BaseUnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Persistence/GenericRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Persistence/Mappings/MappingExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Persistence/Transaction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Tools/ConfigurationHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Tools/CsvImport/CsvImport.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Tools/CsvImport/CsvImportBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Tools/CsvImport/CsvImportFormatAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Tools/DateTimeExcensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/Tools/MyFile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Contracts/UnitOfWork/IUnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Contracts/UnitOfWork/Repositories/IEquipmentRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Contracts/UnitOfWork/Repositories/ILocationRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Contracts/UnitOfWork/Repositories/IObservationRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Contracts/UnitOfWork/Repositories/IResearchProjectRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Contracts/UnitOfWork/Repositories/ISpeciesRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Core.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/Equipment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/Location.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/Observation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/ResearchProject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/Species.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImportConsoleApp/CSVEntities/CsvObservation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImportConsoleApp/CSVEntities/CsvResearchProject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImportConsoleApp/Contracts/IImportService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImportConsoleApp/ImportConsoleApp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImportConsoleApp/ImportData/Equipment.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImportConsoleApp/ImportData/Locations.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImportConsoleApp/ImportData/Observations.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImportConsoleApp/ImportData/ResearchProjects.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImportConsoleApp/ImportData/Species.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImportConsoleApp/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImportConsoleApp/Services/ImportService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImportConsoleApp/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/ApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/Mappings/EquipmentMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/Mappings/LocationMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/Mappings/ObservationMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/Mappings/ResearchProjectMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/Mappings/SpeciesMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/Migrations/20240530184008_V1.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/Migrations/20240530184008_V1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/Migrations/20240531071227_V2.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/Migrations/20240531071227_V2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/Migrations/AquaticDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/Persistence.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/UnitOfWork/Repositories/EquipmentRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/UnitOfWork/Repositories/LocationRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/UnitOfWork/Repositories/ObservationRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/UnitOfWork/Repositories/ResearchProjectRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/UnitOfWork/Repositories/SpeciesRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/UnitOfWork/UnitOfWork.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AquaticResearch/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AquaticResearch/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AquaticResearch/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AquaticResearch/.idea/dataSources/b3231a54-3711-4469-a56d-974092706f68.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/DTO/DTOs/ObservationDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/DTO/DTOs/ResearchProjectDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/DTO/DtoExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AquaticResearch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AquaticResearch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AquaticResearch.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/AquaticResearch.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/AquaticResearch.http" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/Model/Contracts/IEntityObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Base/Core/Contracts/Entities/IEntityObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/Model/Entities/EntityObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/Model/Entities/Equipment.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/Model/Entities/Location.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/Model/Entities/Observation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/Model/Entities/ResearchProject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/Model/Entities/Species.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/Services/AquaticDbContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/obj/AquaticResearch.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/obj/AquaticResearch.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/obj/AquaticResearch.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/obj/Debug/net8.0/AquaticResearch.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/obj/Debug/net8.0/AquaticResearch.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/obj/Debug/net8.0/AquaticResearch.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/obj/Debug/net8.0/AquaticResearch.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/obj/Debug/net8.0/AquaticResearch.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/obj/Debug/net8.0/AquaticResearch.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearch/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AquaticResearchWebAPI/AquaticResearchWebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/AquaticResearchWebAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AquaticResearchWebAPI/Controllers/ResearchProjectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/Controllers/ResearchProjectController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AquaticResearchWebAPI/Controllers/SpeciesController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base.Web/Controller/ControllerExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Base.Web/Controller/ControllerExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Contracts/UnitOfWork/Repositories/IResearchProjectRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Contracts/UnitOfWork/Repositories/IResearchProjectRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Entities/ResearchProject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/ResearchProject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImportConsoleApp/Services/ImportService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ImportConsoleApp/Services/ImportService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/UnitOfWork/Repositories/ResearchProjectRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/UnitOfWork/Repositories/ResearchProjectRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,10 +39,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/c9e3996173cec136bc2e9f3b4ec45f2a323b1d63/src/DefaultBuilder/src/WebApplicationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/c9e3996173cec136bc2e9f3b4ec45f2a323b1d63/src/Mvc/Mvc.Core/src/Infrastructure/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/efcore/c36d2bad13a4a791ba09d527cd357bff4447221f/src/EFCore/DbSet.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/efcore/c36d2bad13a4a791ba09d527cd357bff4447221f/src/EFCore/Extensions/EntityFrameworkServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/087e15321bb712ef6fe8b0ba6f8bd12facf92629/src/libraries/System.Linq/src/System/Linq/Select.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/087e15321bb712ef6fe8b0ba6f8bd12facf92629/src/libraries/System.Linq/src/System/Linq/ToCollection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/d0d6fed6c0eedd962ddc0f68554682064e9e11ca/src/libraries/Microsoft.Extensions.DependencyInjection/src/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8aaf4c5ace5e4375a519f3f0a5fb9f82100a0/6b/9690f7f2/ILogger.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8aaf4c5ace5e4375a519f3f0a5fb9f82100a0/e1/a7653548/ILogger`1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -177,7 +96,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.ImportConsoleApp">
+  <component name="RunManager" selected=".NET Launch Settings Profile.AquaticResearch: https">
     <configuration name="Base" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -291,7 +210,7 @@
       <workItem from="1717098757904" duration="888000" />
       <workItem from="1717137650604" duration="7213000" />
       <workItem from="1717146151584" duration="1218000" />
-      <workItem from="1717157539363" duration="5142000" />
+      <workItem from="1717157539363" duration="10311000" />
     </task>
     <servers />
   </component>
@@ -302,5 +221,37 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ImportConsoleApp/Services/ImportService.cs</url>
+          <line>100</line>
+          <properties documentPath="C:\Users\Peace\Desktop\AquaticResearch\AquaticResearch\ImportConsoleApp\Services\ImportService.cs" containingFunctionPresentation="Method 'ImportDbAsync'">
+            <startOffsets>
+              <option value="4642" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4671" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AquaticResearchWebAPI/Controllers/ResearchProjectController.cs</url>
+          <line>28</line>
+          <properties documentPath="C:\Users\Peace\Desktop\AquaticResearch\AquaticResearch\AquaticResearchWebAPI\Controllers\ResearchProjectController.cs" containingFunctionPresentation="Method 'GetAllAsync'">
+            <startOffsets>
+              <option value="861" />
+            </startOffsets>
+            <endOffsets>
+              <option value="889" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

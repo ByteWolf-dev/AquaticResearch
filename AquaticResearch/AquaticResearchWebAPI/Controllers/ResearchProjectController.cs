@@ -1,4 +1,6 @@
-﻿using Base.Web.Controller;
+﻿using AquaticResearch.DTO.DTOs;
+using AquaticResearch.DTOExtensions;
+using Base.Web.Controller;
 using Core.Contracts;
 using Core.Entities;
 using Microsoft.AspNetCore.Http.HttpResults;
@@ -20,31 +22,11 @@ public class ResearchProjectController : Controller
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<ResearchProject>>> GetAllAsync()
+    public async Task<ActionResult<IEnumerable<ResearchProjectDto>>> GetAllAsync()
     {
-        var projects = await _uow.ResearchProjectRepository.GetAsync();
-        return await this.NotFoundOrOk(projects);
-    }
-    
-    [HttpPost]
-    public async Task<ActionResult<Location>> AddLocationAsync(Location locationDto)
-    {
-        if (!ModelState.IsValid)
-        {
-            return BadRequest(ModelState);
-        }
-
-        var location = new Location()
-        {
-            Name = locationDto.Name,
-            Latitude = locationDto.Latitude,
-            Longitude = locationDto.Longitude
-        };
-
-        await _uow.LocationRepository.AddAsync(location);
-        int changes = await _uow.SaveChangesAsync();
-
-        return Ok(changes);
+        var projects = await _uow.ResearchProjectRepository.GetAll();
+        var projectDtos = projects.Select(p => p.ToDto()).ToList();
+        return this.Ok(projectDtos);
     }
 
 }

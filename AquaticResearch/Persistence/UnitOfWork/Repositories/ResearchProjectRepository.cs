@@ -11,4 +11,15 @@ public class ResearchProjectRepository : GenericRepository<ResearchProject>, IRe
     public ResearchProjectRepository(DbContext context) : base(context)
     {
     }
+
+    public async Task<IEnumerable<ResearchProject>> GetAll()
+    {
+        return await Context.Set<ResearchProject>()
+            .Include(rp => rp.Observations)
+            .ThenInclude(o => o.Location)
+            .Include(rp => rp.Observations)
+            .ThenInclude(o => o.Equipment)
+            .Include(rp => rp.Species)
+            .ToListAsync();
+    }
 }

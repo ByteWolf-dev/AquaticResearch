@@ -87,10 +87,12 @@ public class ImportService : IImportService
                     Location = location,
                     ResearchProject = researchProject
                 };
+                researchProject.Observations.Add(newObservation);
                 newObservations.Add(newObservation);
             }
             
             
+            //Adding all since I don't want a species to be left out if unnused (as an example)
             await uow.LocationRepository.AddRangeAsync(locationsNotInDb);
             await uow.EquipmentRepository.AddRangeAsync(equipmentNotInDb);
             await uow.SpeciesRepository.AddRangeAsync(speciesNotInDb);

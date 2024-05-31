@@ -5,5 +5,5 @@ namespace Core.Contracts.Repositories;
 
 public interface IResearchProjectRepository : IGenericRepository<ResearchProject>
 {
-    
+    Task<IEnumerable<ResearchProject>> GetAll();
 }
