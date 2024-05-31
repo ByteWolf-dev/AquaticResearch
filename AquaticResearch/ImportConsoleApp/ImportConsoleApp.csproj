@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Base\Base.csproj" />
+      <ProjectReference Include="..\Core\Core.csproj" />
+      <ProjectReference Include="..\Persistence\Persistence.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="appsettings.json">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+      </Content>
+      <Content Include="bin\Debug\net8.0\ImportData\Species.csv" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="bin\Debug\net8.0\appsettings.json" />
+      <None Include="bin\Debug\net8.0\ImportData\Equipment.csv" />
+      <None Include="bin\Debug\net8.0\ImportData\Location.csv" />
+      <None Include="bin\Debug\net8.0\ImportData\locations.csv" />
+      <None Include="bin\Debug\net8.0\ImportData\Locations.csv" />
+      <None Include="bin\Debug\net8.0\ImportData\Observations.csv" />
+      <None Include="bin\Debug\net8.0\ImportData\ResearchProjects.csv" />
+      <None Include="bin\Debug\net8.0\ImportData\Species.csv" />
+    </ItemGroup>
+
+</Project>
