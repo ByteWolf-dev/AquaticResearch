@@ -1,0 +1,72 @@
+<div class="ocean">
+  <div class="wave"></div>
+  <div class="wave"></div>
+</div>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">🦀Aquatic Research Center</h1>
+    <hr class="my-4">
+  </div>
+  <div class="row">
+    <div class="col-lg-6">
+
+      <div class="card">
+
+        <div class="card-header">
+          <h4>Login</h4>
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" class="form-control" id="usernameInput" name="usernameInput" required minlength="4"
+                [(ngModel)]="usernameInput" #username="ngModel" placeholder="Enter username">
+              @if(username?.invalid && (username?.dirty || username?.touched)) {
+              <div class="alert alert-danger">
+                @if (username?.errors?.['required']) {
+                <div>
+                  Username is required.
+                </div>
+                }
+                @if (username?.errors?.['minlength']) {
+                <div>
+                  Name must be at least 4 characters long.
+                </div>
+                }
+              </div>
+              }
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="passwordInput" name="passwordInput"
+                [(ngModel)]="passwordInput" #password="ngModel" required minlength="6" appValidatePassword
+                placeholder="Password">
+            </div>
+            @if(password?.invalid && (password?.dirty || password?.touched)) {
+            <div class="alert alert-danger">
+              @if (password?.errors?.['required']) {
+              <div>
+                Password is required.
+              </div>
+              }
+              @if (password?.errors?.['minlength']) {
+              <div>
+                Password must be at least 6 characters long.
+              </div>
+              }
+              @if (password?.hasError('passwordInvalid')) {
+              <div>
+                Password must contain both letters and digits.
+              </div>
+              }
+            </div>
+            }
+            <button [disabled]="username?.invalid || password?.invalid" (click)="onSubmit()" type="submit"
+              class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

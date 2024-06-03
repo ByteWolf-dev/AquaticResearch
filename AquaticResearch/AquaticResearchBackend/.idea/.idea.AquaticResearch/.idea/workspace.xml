@@ -13,18 +13,97 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24a14802-0be6-46e1-b70b-1de064f91477" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/Controllers/LoginController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/UserManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/UserInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AquaticResearch/.idea/dataSources/da9b37e4-3ac7-4be8-a3e2-e763e4a31ada.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AquaticResearch/.idea/dataSources/da9b37e4-3ac7-4be8-a3e2-e763e4a31ada.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AquaticResearch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AquaticResearch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearchWebAPI/AquaticResearchWebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/AquaticResearchWebAPI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearchWebAPI/Controllers/ResearchProjectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/Controllers/ResearchProjectController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearchWebAPI/DTO/DtoExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/DTO/DtoExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearchWebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AquaticResearchWebAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AquaticResearchWebAPI/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Persistence.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AquaticResearchBackend/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AquaticResearchBackend/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AquaticResearchBackend/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AquaticResearchBackend/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AquaticResearchBackend/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/.idea/.idea.AquaticResearch/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/.idea/.idea.AquaticResearch/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/.idea/.idea.AquaticResearch/.idea/dataSources/da9b37e4-3ac7-4be8-a3e2-e763e4a31ada.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/.idea/.idea.AquaticResearch/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/.idea/.idea.AquaticResearch/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/.idea/.idea.AquaticResearch/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/.idea/.idea.AquaticResearch/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/.idea/.idea.AquaticResearch/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/AquaticResearch.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/AquaticResearchWebAPI/AquaticResearchWebAPI.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/AquaticResearchWebAPI/Controllers/LoginController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/AquaticResearchWebAPI/Controllers/ResearchProjectController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/AquaticResearchWebAPI/DTO/DTOs/ObservationDTO.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/AquaticResearchWebAPI/DTO/DTOs/ResearchProjectDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/AquaticResearchWebAPI/DTO/DtoExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/AquaticResearchWebAPI/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/AquaticResearchWebAPI/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/AquaticResearchWebAPI/UserManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/AquaticResearchWebAPI/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/AquaticResearchWebAPI/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base.Web/Base.Web.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base.Web/Controller/ControllerExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base.Web/HttpRequestExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base.Web/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Base.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Core/AppService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Core/Contracts/Entities/IEntityObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Core/Contracts/UnitOfWork/IBaseUnitOfWork.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Core/Contracts/UnitOfWork/ITransaction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Core/Contracts/UnitOfWork/Repositories/IGenericRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Core/Entities/EntityObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Core/ServiceCollectionExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Persistence/BaseUnitOfWork.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Persistence/GenericRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Persistence/Mappings/MappingExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Persistence/Transaction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Tools/ConfigurationHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Tools/CsvImport/CsvImport.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Tools/CsvImport/CsvImportBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Tools/CsvImport/CsvImportFormatAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Tools/DateTimeExcensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Base/Tools/MyFile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Core/Contracts/UnitOfWork/IUnitOfWork.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Core/Contracts/UnitOfWork/Repositories/IEquipmentRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Core/Contracts/UnitOfWork/Repositories/ILocationRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Core/Contracts/UnitOfWork/Repositories/IObservationRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Core/Contracts/UnitOfWork/Repositories/IResearchProjectRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Core/Contracts/UnitOfWork/Repositories/ISpeciesRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Core/Core.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Core/Entities/Equipment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Core/Entities/Location.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Core/Entities/Observation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Core/Entities/ResearchProject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Core/Entities/Species.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Core/Entities/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Core/Entities/UserInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/ImportConsoleApp/CSVEntities/CsvObservation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/ImportConsoleApp/CSVEntities/CsvResearchProject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/ImportConsoleApp/Contracts/IImportService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/ImportConsoleApp/ImportConsoleApp.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/ImportConsoleApp/ImportData/Equipment.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/ImportConsoleApp/ImportData/Locations.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/ImportConsoleApp/ImportData/Observations.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/ImportConsoleApp/ImportData/ResearchProjects.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/ImportConsoleApp/ImportData/Species.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/ImportConsoleApp/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/ImportConsoleApp/Services/ImportService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/ImportConsoleApp/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/ApplicationDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/Mappings/EquipmentMapping.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/Mappings/LocationMapping.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/Mappings/ObservationMapping.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/Mappings/ResearchProjectMapping.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/Mappings/SpeciesMapping.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/Migrations/20240530184008_V1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/Migrations/20240530184008_V1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/Migrations/20240531071227_V2.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/Migrations/20240531071227_V2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/Migrations/AquaticDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/Persistence.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/UnitOfWork/Repositories/EquipmentRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/UnitOfWork/Repositories/LocationRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/UnitOfWork/Repositories/ObservationRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/UnitOfWork/Repositories/ResearchProjectRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/UnitOfWork/Repositories/SpeciesRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AquaticResearch/Persistence/UnitOfWork/UnitOfWork.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +292,8 @@
       <workItem from="1717146151584" duration="1218000" />
       <workItem from="1717157539363" duration="11287000" />
       <workItem from="1717399787923" duration="91000" />
-      <workItem from="1717399905935" duration="2466000" />
+      <workItem from="1717399905935" duration="2503000" />
+      <workItem from="1717403999009" duration="51000" />
     </task>
     <servers />
   </component>
