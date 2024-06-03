@@ -1,12 +1,9 @@
 ﻿using System.Collections;
+using System.Text;
 using AquaticResearch.DTO.DTOs;
 using Core.Entities;
-using Newtonsoft.Json;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace AquaticResearch.DTOExtensions
+namespace AquaticResearch.DTO
 {
     public static class DtoExtensions
     {

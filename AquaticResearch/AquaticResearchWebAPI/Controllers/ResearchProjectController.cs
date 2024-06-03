@@ -1,8 +1,9 @@
-﻿using AquaticResearch.DTO.DTOs;
-using AquaticResearch.DTOExtensions;
+﻿using AquaticResearch.DTO;
+using AquaticResearch.DTO.DTOs;
 using Base.Web.Controller;
 using Core.Contracts;
 using Core.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
@@ -22,6 +23,7 @@ public class ResearchProjectController : Controller
     }
 
     [HttpGet]
+    [Authorize]
     public async Task<ActionResult<IEnumerable<ResearchProjectDto>>> GetAllAsync()
     {
         var projects = await _uow.ResearchProjectRepository.GetAll();
