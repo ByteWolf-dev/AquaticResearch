@@ -1,1 +1,17 @@
-<p>overview works!</p>
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Principal Investigator</th>
+      </tr>
+    </thead>
+    <tbody>
+        @for(p of researchProjects; track p) {
+            <tr>
+                <td>{{p.title}}</td>
+                <td><button (click)="onProjectClick(p)">Get Data</button></td>
+            </tr>
+        }
+    </tbody>
+  </table>
+  

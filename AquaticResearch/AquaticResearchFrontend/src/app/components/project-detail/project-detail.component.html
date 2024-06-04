@@ -1,0 +1,23 @@
+<table>
+    <thead>
+      <tr>
+        <th>Date & Time</th>
+        <th>Notes</th>
+        <th>Researchers</th>
+        <th>Equipment</th>
+        <th>Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (observation of observations; track observation) {
+        <tr>
+          <td>{{ observation.observationDateTime }}</td>
+          <td>{{ observation.notes }}</td>
+          <td>{{ observation.researchers }}</td>
+          <td>{{ observation.equipment }}</td>
+          <td>{{ observation.location }}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+  
