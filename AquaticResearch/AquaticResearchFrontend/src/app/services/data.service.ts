@@ -1,6 +1,6 @@
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { AuthResponse, User } from '../model/model';
+import { AuthResponse, ObservationDto, ResearchProjectDto, User } from '../model/model';
 import { Observable } from 'rxjs';
 import { environment } from '../environments/environment';
 
@@ -29,4 +29,18 @@ export class DataService {
     };
     return this.httpClient.post<AuthResponse>(url, user);
   }
+
+  getAllProjects(): Observable<ResearchProjectDto[]> {
+    const url = `${this.baseUrl}/ResearchProject`;
+    return this.httpClient.get<ResearchProjectDto[]>(url);
+  }
+
+  getAllObservationsForProject(projectTitle: string): Observable<ObservationDto[]> {
+    const options = {
+        params: new HttpParams().set('title', projectTitle)
+    };
+
+    const url = `${this.baseUrl}/Observation`;
+    return this.httpClient.get<ObservationDto[]>(url, options);
+}
 }
