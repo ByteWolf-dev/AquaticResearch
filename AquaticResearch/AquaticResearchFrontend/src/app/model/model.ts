@@ -18,5 +18,10 @@ export interface User {
 
 export interface ResearchProjectDto {
   title: string;
-  species: string;
+  species: Species;
+}
+
+export interface Species {
+  name: string;
+  scientificName: string;
 }

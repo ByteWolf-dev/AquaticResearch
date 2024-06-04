@@ -1,0 +1,22 @@
+<div class="container">
+    <h2>Research Project Form</h2>
+    <form [formGroup]="researchProjectForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input id="title" class="form-control" formControlName="title" />
+      </div>
+  
+      <div formGroupName="species" class="form-group">
+        <label for="name">Species Name</label>
+        <input id="name" class="form-control" formControlName="name" />
+      </div>
+  
+      <div formGroupName="species" class="form-group">
+        <label for="scientificName">Scientific Name</label>
+        <input id="scientificName" class="form-control" formControlName="scientificName" />
+      </div>
+  
+      <button type="submit" class="btn btn-primary" [disabled]="!researchProjectForm.valid">Submit</button>
+    </form>
+  </div>
+  

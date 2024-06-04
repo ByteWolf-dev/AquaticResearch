@@ -1,5 +1,6 @@
-<table>
-    <thead>
+<app-navbar></app-navbar>
+<table class="ocean-container">
+    <thead class="ocean-table">
       <tr>
         <th>Date & Time</th>
         <th>Notes</th>
@@ -19,5 +20,6 @@
         </tr>
       }
     </tbody>
+    <button (click)="addObservation(title)">Add Observation</button>
   </table>
   

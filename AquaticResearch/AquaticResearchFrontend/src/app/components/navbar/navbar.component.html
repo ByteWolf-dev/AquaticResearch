@@ -1,0 +1,14 @@
+<nav class="navbar navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">AquaticResearch</a>
+      <a class="navbar-brand" href="/overview">Home</a>
+      @if (dataService.loggedInUser) 
+      {
+        <p>Welcome {{dataService.loggedInUser}}</p>
+        <button class="button" (click)="onLogout()">Logout</button>
+      }
+      @else {
+        <button class="button">Login</button>
+      }
+    </div>
+</nav>

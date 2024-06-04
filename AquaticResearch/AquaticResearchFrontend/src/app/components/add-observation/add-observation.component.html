@@ -1,0 +1,27 @@
+<div class="container">
+    <h2>Add Observation for Project: {{ projectTitle }}</h2>
+    <form [formGroup]="observationForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="notes">Notes</label>
+        <textarea id="notes" class="form-control" formControlName="notes"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="observationDateTime">Observation Date Time</label>
+        <input id="observationDateTime" type="datetime-local" class="form-control" formControlName="observationDateTime">
+      </div>
+      <div class="form-group">
+        <label for="researchers">Researchers</label>
+        <input id="researchers" class="form-control" formControlName="researchers">
+      </div>
+      <div class="form-group">
+        <label for="equipment">Equipment</label>
+        <input id="equipment" class="form-control" formControlName="equipment">
+      </div>
+      <div class="form-group">
+        <label for="location">Location</label>
+        <input id="location" class="form-control" formControlName="location">
+      </div>
+      <button type="submit" class="btn btn-primary" [disabled]="!observationForm.valid">Submit</button>
+    </form>
+  </div>
+  
