@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Text;
-using AquaticResearch.DTO.DTOs;
 using Core.Entities;
+using Core.Entities.DTO.DTOs;
 
 namespace AquaticResearch.DTO
 {
@@ -12,12 +12,24 @@ namespace AquaticResearch.DTO
             var projectDto = new ResearchProjectDto()
             {
                 Title = researchProject.Title,
-                Species = researchProject.Species.Name,
-                ObservationDtos = researchProject.Observations.Select(o => o.ToDto()).ToList()
+                Species = researchProject.Species,
+            };
+            return projectDto;
+        }
+        
+        public static ResearchProject ToEntity(this ResearchProjectDto researchProjectDto)
+        {
+            var project = new ResearchProject()
+            {
+                Title = researchProjectDto.Title,
+                Species = new Species()
+                {
+                    Name = researchProjectDto.Species.Name,
+                    ScientificName = researchProjectDto.Species.ScientificName
+                }
             };
 
-
-            return projectDto;
+            return project;
         }
 
         public static ObservationDto ToDto(this Observation observation)
@@ -32,6 +44,22 @@ namespace AquaticResearch.DTO
                 Researchers = GetListAsString(observation.Researchers)
             };
             return observationDto;
+        }
+        
+        public static Observation ToEntity(this ObservationDto observationDto, IList<ResearchProject> projects, string title)
+        {
+            var observation = new Observation()
+            {
+                Notes = observationDto.Notes,
+                ObservationDateTime = observationDto.ObservationDateTime,
+                ResearchProject = projects.FirstOrDefault(p => p.Title == title),
+                Location = new Location()
+                {
+                    Name = observationDto.Location
+                }
+            };
+
+            return observation;
         }
 
         public static string GetListAsString(IList list)

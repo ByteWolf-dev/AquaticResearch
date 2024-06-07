@@ -1,7 +1,9 @@
-﻿using Base.Core.Contracts;
+﻿using AquaticResearch.DTO;
+using Base.Core.Contracts;
 using Base.Persistence;
-using Core.Contracts.Repositories;
+using Core.Contracts.UnitOfWork.Repositories;
 using Core.Entities;
+using Core.Entities.DTO.DTOs;
 using Microsoft.EntityFrameworkCore;
 
 namespace Persistence.UnitOfWork.Repositories;
@@ -12,14 +14,11 @@ public class ResearchProjectRepository : GenericRepository<ResearchProject>, IRe
     {
     }
 
-    public async Task<IEnumerable<ResearchProject>> GetAll()
+    public async Task<IEnumerable<ResearchProjectDto>> GetAllResearchProjectDTOs()
     {
-        return await Context.Set<ResearchProject>()
-            .Include(rp => rp.Observations)
-            .ThenInclude(o => o.Location)
-            .Include(rp => rp.Observations)
-            .ThenInclude(o => o.Equipment)
-            .Include(rp => rp.Species)
-            .ToListAsync();
+        var researchProjects = await Context.Set<ResearchProject>()
+            .Include(rp => rp.Species).ToListAsync();
+
+        return researchProjects.Select<ResearchProject, ResearchProjectDto>(p => p.ToDto());
     }
 }

@@ -44,10 +44,16 @@ export class DataService {
     return this.httpClient.get<ObservationDto[]>(url, options);
 }
 
-  addObservation(observation: ObservationDto, projectTitle: string): Observable<ObservationDto> {
-    const url = `${this.baseUrl}/Observation`;
-    return this.httpClient.post<ObservationDto>(url, observation);
-  }
+addObservation(observation: ObservationDto, projectTitle: string): Observable<ObservationDto> {
+  const url = `${this.baseUrl}/Observation`;
+  
+  const body = {
+    observation: observation,
+    title: projectTitle
+  };
+  
+  return this.httpClient.post<ObservationDto>(url, body);
+}
 
   addProject(project: ResearchProjectDto): Observable<ResearchProjectDto> {
     const url = `${this.baseUrl}/ResearchProject`;

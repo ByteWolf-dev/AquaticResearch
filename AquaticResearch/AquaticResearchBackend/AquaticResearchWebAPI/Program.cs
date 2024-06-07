@@ -1,6 +1,6 @@
 using System.Text;
 using Core.Contracts;
-using Core.Contracts.Repositories;
+using Core.Contracts.UnitOfWork.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;

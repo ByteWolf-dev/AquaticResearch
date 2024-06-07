@@ -1,9 +1,10 @@
 ﻿using Base.Core.Contracts;
 using Core.Entities;
+using Core.Entities.DTO.DTOs;
 
-namespace Core.Contracts.Repositories;
+namespace Core.Contracts.UnitOfWork.Repositories;
 
 public interface IResearchProjectRepository : IGenericRepository<ResearchProject>
 {
-    Task<IEnumerable<ResearchProject>> GetAll();
+    public Task<IEnumerable<ResearchProjectDto>> GetAllResearchProjectDTOs(); 
 }

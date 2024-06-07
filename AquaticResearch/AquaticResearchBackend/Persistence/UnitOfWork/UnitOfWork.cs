@@ -1,6 +1,6 @@
 ﻿using Base.Persistence;
 using Core.Contracts;
-using Core.Contracts.Repositories;
+using Core.Contracts.UnitOfWork.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace Persistence.UnitOfWork;

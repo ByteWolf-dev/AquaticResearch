@@ -1,7 +1,7 @@
 ﻿using Base.Core.Contracts;
 using Core.Entities;
 
-namespace Core.Contracts.Repositories;
+namespace Core.Contracts.UnitOfWork.Repositories;
 
 public interface ILocationRepository : IGenericRepository<Location>
 {

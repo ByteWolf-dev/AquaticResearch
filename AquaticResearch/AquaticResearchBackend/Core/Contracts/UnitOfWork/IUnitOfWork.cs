@@ -1,5 +1,5 @@
 ﻿using Base.Core.Contracts;
-using Core.Contracts.Repositories;
+using Core.Contracts.UnitOfWork.Repositories;
 
 namespace Core.Contracts;
 

@@ -3,7 +3,7 @@
 using Base.Core;
 using Base.Tools;
 using Core.Contracts;
-using Core.Contracts.Repositories;
+using Core.Contracts.UnitOfWork.Repositories;
 using Core.Entities;
 using ImportConsoleApp;
 using Microsoft.EntityFrameworkCore;

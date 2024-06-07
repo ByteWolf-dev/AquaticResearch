@@ -1,6 +1,4 @@
-﻿using Core.Entities;
-
-namespace AquaticResearch.DTO.DTOs;
+﻿namespace Core.Entities.DTO.DTOs;
 
 public class ObservationDto
 {
